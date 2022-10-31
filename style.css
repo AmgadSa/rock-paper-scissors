@@ -1,0 +1,57 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    min-height: 100%;
+    color: white;
+}
+html{
+    align-items: center;
+    background-color: hsl(217, 74%, 20%);
+    background-image: linear-gradient(170deg,hsl(217, 74%, 30%),transparent 45%),
+                      linear-gradient(to right ,hsl(262, 74%, 35%),transparent 45%),
+                      linear-gradient(5deg,hsl(172, 74%, 20%),transparent 45%),
+                      linear-gradient(to left,hsl(262, 74%, 35%),transparent,transparent);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.275);
+    border-radius: 15px;
+    padding: 2em 5vw;
+    border: 3px solid black;
+}
+.interface {
+    flex-basis: 100%;
+    width: 30vw;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2em;
+}
+.title {
+    font-size: 2em;
+}
+#status {
+    font-size: 1.3em;
+}
+.emoji {
+    font-size: 7em;
+    text-align: center;
+}
+.playerEmoji {
+    font-size: 1em;
+    color: white;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+button{
+    font-family: inherit;
+    padding: 0.1em;
+    background-color: transparent;
+    font-size: 7em;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 10px hsl(172, 74%, 20%);
+}
